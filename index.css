@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    transition: 0.5s;
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    color: rgb(0, 0, 0);
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width:30vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    border-radius: 15px;
+}
+.mat h1{
+    margin-left: 210px;
+}
+.main button{
+    margin-top: 30px;
+    margin: 20px auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5);
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn:hover{
+    color:red;
+    background-color: aqua;
+}
+
+#btn{
+    height: 5vh;
+    
+    border-radius: 10px;
+    font-size: 25px;
+}
